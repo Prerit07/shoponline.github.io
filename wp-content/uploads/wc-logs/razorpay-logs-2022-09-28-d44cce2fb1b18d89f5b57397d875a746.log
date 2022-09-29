@@ -1,0 +1,41 @@
+2022-09-28T11:24:52+00:00 ERROR Could not enable webhook for localhost
+2022-09-28T12:29:18+00:00 INFO Called process_payment with params order_id 60
+2022-09-28T12:29:18+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 60
+2022-09-28T12:29:21+00:00 INFO getRazorpayPaymentParams 60
+2022-09-28T12:29:21+00:00 INFO createOrGetRazorpayOrderId 60 and is1ccCheckout is set to no
+2022-09-28T12:29:21+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 60 and is_magic_checkout_order is set to no
+2022-09-28T12:29:21+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id60
+2022-09-28T12:29:21+00:00 INFO Called createRazorpayOrderId with params orderId 60 and sessionKey razorpay_order_id60
+2022-09-28T12:29:21+00:00 INFO Called getOrderCreationData with params orderId 60
+2022-09-28T12:29:21+00:00 INFO Called getOrderCreationData with params orderId 60 and is1ccOrder is set to no
+2022-09-28T12:29:21+00:00 INFO For order 60
+2022-09-28T12:29:21+00:00 INFO {"receipt":60,"amount":3639890,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"60"}}
+2022-09-28T12:29:22+00:00 INFO For order session key razorpay_order_id60
+2022-09-28T12:32:02+00:00 INFO Called check_razorpay_response: wc_order_FxZC7RkvsNjTk
+2022-09-28T12:32:02+00:00 INFO Get order id in check_razorpay_response: orderId 60
+2022-09-28T12:32:02+00:00 INFO verifySignature orderId: 60
+2022-09-28T12:32:02+00:00 INFO verifySignature attr
+2022-09-28T12:32:02+00:00 INFO {"razorpay_payment_id":"pay_KNJym3Tyg0BMmw","razorpay_signature":"5d1c9aa6b6d6f45530c7ad9c4928546008aa8b154b15e91f9687d11f0dffd339","razorpay_order_id":"order_KNJw5UnnK7ir7l"}
+2022-09-28T12:32:02+00:00 INFO updateOrder orderId: 60 , razorpayPaymentId: pay_KNJym3Tyg0BMmw , success: 1
+2022-09-28T12:32:02+00:00 INFO Order details check initiated step 1 for the orderId: 60
+2022-09-28T12:32:06+00:00 INFO Woocommerce orderId: 60 processed through callback
+2022-09-28T12:36:28+00:00 INFO Called process_payment with params order_id 61
+2022-09-28T12:36:28+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 61
+2022-09-28T12:36:30+00:00 INFO getRazorpayPaymentParams 61
+2022-09-28T12:36:30+00:00 INFO createOrGetRazorpayOrderId 61 and is1ccCheckout is set to no
+2022-09-28T12:36:30+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 61 and is_magic_checkout_order is set to no
+2022-09-28T12:36:30+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id61
+2022-09-28T12:36:30+00:00 INFO Called createRazorpayOrderId with params orderId 61 and sessionKey razorpay_order_id61
+2022-09-28T12:36:30+00:00 INFO Called getOrderCreationData with params orderId 61
+2022-09-28T12:36:30+00:00 INFO Called getOrderCreationData with params orderId 61 and is1ccOrder is set to no
+2022-09-28T12:36:30+00:00 INFO For order 61
+2022-09-28T12:36:30+00:00 INFO {"receipt":61,"amount":7279780,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"61"}}
+2022-09-28T12:36:32+00:00 INFO For order session key razorpay_order_id61
+2022-09-28T12:38:50+00:00 INFO Called check_razorpay_response: wc_order_GdS0BxHaiOWEE
+2022-09-28T12:38:50+00:00 INFO Get order id in check_razorpay_response: orderId 61
+2022-09-28T12:38:50+00:00 INFO verifySignature orderId: 61
+2022-09-28T12:38:50+00:00 INFO verifySignature attr
+2022-09-28T12:38:50+00:00 INFO {"razorpay_payment_id":"pay_KNK5wiG0GleyVT","razorpay_signature":"09aaa75203115751379aafc8437a9dff05d26b9be8e38bcf79c91c75e7e134d5","razorpay_order_id":"order_KNK3eykSar7N1e"}
+2022-09-28T12:38:50+00:00 INFO updateOrder orderId: 61 , razorpayPaymentId: pay_KNK5wiG0GleyVT , success: 1
+2022-09-28T12:38:50+00:00 INFO Order details check initiated step 1 for the orderId: 61
+2022-09-28T12:38:54+00:00 INFO Woocommerce orderId: 61 processed through callback
